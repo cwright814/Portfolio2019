@@ -1,5 +1,5 @@
 {
-    "name": "vue-template",
+    "name": "portfolio2019",
     "version": "0.1.0",
     "license": "GPL-3.0-only",
     "repository": "git@github.com:cwright814/Portfolio2019.git",
@@ -42,7 +42,7 @@
         "vue-template-compiler": "^2.5.17"
     },
     "engines": {
-        "node": "^10.12.0",
-        "npm": "^6.4.1"
+        "node": "^10.16.0",
+        "npm": "^6.9.0"
     }
 }
