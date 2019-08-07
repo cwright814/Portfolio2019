@@ -11,16 +11,15 @@ import {HttpResponse} from "vue-resource/types/vue_resource";
 @Component
 export default class APICall extends Vue {
     // Property example
-    @Prop() private request!: string;
+    @Prop(String) private readonly request!: string | undefined;
 
     // Data example
     private response: string = "...";
 
     // Inherited method example (async optional)
     private async mounted(): Promise<void> {
-        const testResponse = await this.requestTest();
-        const responseText = await testResponse.text();
-        this.response = responseText;
+        const testResponse: HttpResponse = await this.requestTest();
+        this.response = await testResponse.text();
     }
 
     // Custom method example (async optional)
