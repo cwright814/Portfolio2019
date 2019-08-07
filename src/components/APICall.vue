@@ -1,7 +1,7 @@
 <template>
-    <div class="api-call">
-        <p><strong>{{ request }} =</strong> {{ response }}</p>
-    </div>
+<div class="api-call">
+    <p><strong>{{ request }} =</strong> {{ response }}</p>
+</div>
 </template>
 
 <script lang="ts">
