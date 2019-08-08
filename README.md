@@ -1,6 +1,7 @@
 # Portfolio 2019
 
 Resume supplement to showcase my knowledge and development life cycle.
+Currently lacking in content and design, but provides a barebones showcase of Vue being used as a single-page application with a responsive design.
 
 ## Requirements
 
