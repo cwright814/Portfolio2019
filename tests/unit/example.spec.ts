@@ -1,13 +1,13 @@
 import {expect} from "chai";
 import {shallowMount} from "@vue/test-utils";
-import HelloWorld from "@/components/HelloWorld.vue";
+import APICall from "@/components/APICall.vue";
 
-describe("HelloWorld.vue", () => {
-    it("renders props.msg when passed", () => {
-        const msg = "new message";
-        const wrapper = shallowMount(HelloWorld, {
-            propsData: {msg}
+describe("APICall.vue", () => {
+    it("outputs GET request when passed", () => {
+        const request: string = "https://reqres.in/api/users/1";
+        const wrapper = shallowMount(APICall, {
+            propsData: {request}
         });
-        expect(wrapper.text()).to.include(msg);
+        expect(wrapper.text()).to.include(request);
     });
 });
