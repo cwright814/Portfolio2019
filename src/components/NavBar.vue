@@ -8,24 +8,26 @@
 		<b-navbar-nav id="nav">
 			<b-nav-item :to="{ name: 'intro' }">Intro</b-nav-item>
 			<b-nav-item :to="{ name: 'experience' }">Experience</b-nav-item>
-			<b-nav-item :to="{ name: 'examples' }">Examples</b-nav-item>
+			<b-nav-item :to="{ name: 'demos' }">Demos</b-nav-item>
 		</b-navbar-nav>
 	</b-collapse>
 </b-navbar>
 </template>
 
 <style scoped lang="scss">
+@import "@/assets/sass/DefaultTheme.scss";
+
 nav {
-	background-color: #ffffff !important;
-	border-bottom: 1px solid #eaecef;
+	background-color: map-get($theme-colors, "body-bg") !important;
+	border-bottom: 1px solid map-get($theme-colors, "body-border");
 }
 #nav {
 	a {
 		font-size: 1.25rem;
-		color: #2c3e50;
+		color: map-get($theme-colors, "text");
 		@media (max-width: 575px) {
 			&:hover, &.router-link-exact-active {
-				color: #46bd87 !important;
+				color: map-get($theme-colors, "nav-select") !important;
 			}
 		}
 	}
@@ -39,12 +41,12 @@ nav {
 		margin-right: auto;
 		a {
 			&.router-link-exact-active {
-				border-bottom-color: #46bd87;
+				border-bottom-color: map-get($theme-colors, "nav-select");
 				border-bottom-style: solid;
 				border-bottom-width: 2px;
 			}
 			&:hover {
-				border-bottom-color: #46bd87;
+				border-bottom-color: map-get($theme-colors, "nav-select");
 				border-bottom-style: solid;
 				border-bottom-width: 2px;
 			}
@@ -54,7 +56,9 @@ nav {
 		// Force full width regardless of branding
 		position: absolute;
 		width: 100%;
-		margin-left: -16px;
+		left: 0;
+		top: 0.5rem;
+		bottom: 0.5rem;
 	}
 	.navbar-expand-sm .navbar-nav .nav-link {
 		padding: 0;
@@ -62,10 +66,7 @@ nav {
 		margin-right: 0.5rem;
 	}
 }
-.navbar {
-	padding: 0.5rem 1rem;
-}
 .navbar-brand {
-	color: #2c3e50;
+	color: map-get($theme-colors, "text");
 }
 </style>
