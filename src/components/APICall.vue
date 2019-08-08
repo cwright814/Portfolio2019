@@ -1,6 +1,7 @@
 <template>
 <div class="api-call">
-    <p><strong>{{ request }} =</strong> {{ response }}</p>
+    {{ request }} =
+    <pre>{{ response }}</pre>
 </div>
 </template>
 
@@ -28,3 +29,10 @@ export default class APICall extends Vue {
     }
 }
 </script>
+
+<style scoped lang="scss">
+pre {
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+</style>
