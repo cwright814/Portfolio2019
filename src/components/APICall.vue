@@ -12,7 +12,7 @@ import {HttpResponse} from "vue-resource/types/vue_resource";
 @Component
 export default class APICall extends Vue {
     // Property example
-    @Prop(String) private readonly request!: string;
+    @Prop(String) private readonly request!: string; // Trailing ! disallows null values
 
     // Data example
     private response: string = "...";
