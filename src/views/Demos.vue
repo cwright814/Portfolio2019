@@ -8,10 +8,11 @@
     <h3>My Other Work</h3>
     <ul>
         <li><a href="https://www.thewrightreason.com" target="_blank" rel="noopener">2016 Portfolio</a></li>
-        <li><a href="https://www.youtube.com/watch?v=UWxKE7k_pv4" target="_blank" rel="noopener">"Trash House" Demo</a></li>
-        <li><a href="https://www.thewrightreason.com/theforge" target="_blank" rel="noopener">AngularJS Demos</a></li>
-        <li><a href="https://github.com/cwright814" target="_blank" rel="noopener">Personal GitHub</a></li>
         <li><a href="https://www.thewrightreason.com/resume2019" target="_blank" rel="noopener">Live Resume</a></li>
+        <li><a href="https://github.com/cwright814" target="_blank" rel="noopener">Personal GitHub</a></li>
+        <li><a href="https://www.thewrightreason.com/theforge" target="_blank" rel="noopener">AngularJS Demos</a></li>
+        <li><a href="https://www.youtube.com/watch?v=UWxKE7k_pv4" target="_blank" rel="noopener">"Trash House" Demo</a></li>
+        <li><a href="https://www.youtube.com/watch?v=y0u8fYcp-Ow" target="_blank" rel="noopener">"Protocol" Prototype</a></li>
     </ul>
 </div>
 </template>
