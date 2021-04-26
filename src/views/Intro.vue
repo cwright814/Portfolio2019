@@ -1,8 +1,11 @@
 <template>
 <div class="intro">
-    <h1>Christopher's Portfolio</h1>
+    <h1>Christopher's 2019 Portfolio</h1>
+    <br>
+    <h2>I built new portfolio! Go <a href="https://thewrightreason.com">check it out</a>.</h2>
+    <br>
     <p>
-        ...or at least it could be given more time! This was pieced together over several hours as an example of a basic single-page application in <a href="https://vuejs.org" target="_blank" rel="noopener">Vue</a> with a responsive design. While currently lacking in content, please check out my experience and examples using the navigation above.
+        This was pieced together over several hours as an example of a basic single-page application in <a href="https://vuejs.org" target="_blank" rel="noopener">Vue</a> with a responsive design. While currently lacking in content, please check out my experience and examples using the navigation above.
     </p>
     <p>I've included some useful links below for reference:</p>
     <h3>Installed CLI Plugins</h3>

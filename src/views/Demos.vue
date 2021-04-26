@@ -7,7 +7,7 @@
     <APICall request="https://reqres.in/api/users/3"/>
     <h3>My Other Work</h3>
     <ul>
-        <li><a href="https://www.thewrightreason.com" target="_blank" rel="noopener">2016 Portfolio</a></li>
+        <li><a href="https://www.thewrightreason.com/portfolio2016" target="_blank" rel="noopener">2016 Portfolio</a></li>
         <li><a href="https://www.thewrightreason.com/resume2021" target="_blank" rel="noopener">Live Resume</a></li>
         <li><a href="https://www.thewrightreason.com/ecn" target="_blank" rel="noopener">Chiropractic Webpage (2016)</a></li>
         <li><a href="https://github.com/cwright814" target="_blank" rel="noopener">Personal GitHub</a></li>
